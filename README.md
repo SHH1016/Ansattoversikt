@@ -22,7 +22,8 @@ npm install
 # Legg inn dine egene testverdier 
 DB_USER= 
 DB_PASSWORD= 
-DB_DATABASE_NAME= 
+DB_DATABASE_NAME=employeeoverview
+
  
 
 JWT_SECRET= 
@@ -64,7 +65,7 @@ CLIENT_SECRET= x --
 
  # Vedlegg 
  MYSQL SCRIPT
- [Last ned fullstendig rapport (PDF)](./employeeOverview_prosjekt.sql.zip)
+ [Last ned fullstendig](./employeeOverview_prosjekt.sql.zip)
 
  # Dashbord 
     -> Se oversikt over FTE eksludert ansatte som har permisjon eller sluttdato
