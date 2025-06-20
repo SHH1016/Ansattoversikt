@@ -25,11 +25,13 @@ DB_PASSWORD=
 DB_DATABASE_NAME=employeeoverview
  
 
-JWT_SECRET= 
+JWT_SECRET=
+
 DEFAULT_TEST_PASSWORD= 
  
 
 CLIENT_ID= x -- 
+
 CLIENT_SECRET= x --
 
  # sette opp databaseskjema 
