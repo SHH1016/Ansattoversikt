@@ -23,7 +23,6 @@ npm install
 DB_USER= 
 DB_PASSWORD= 
 DB_DATABASE_NAME=employeeoverview
-
  
 
 JWT_SECRET= 
@@ -34,7 +33,7 @@ CLIENT_ID= x --
 CLIENT_SECRET= x --
 
  # sette opp databaseskjema 
- mysql -u root -p < schema.sql
+ mysql -u root -p < employeeOverview_prosjekt.sql
 
  # Starte servere 
  npm start - > server 3000 (backend)
