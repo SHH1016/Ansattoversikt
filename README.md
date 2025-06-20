@@ -21,7 +21,9 @@ npm install
 # opprett miljøfil i env
 # Legg inn dine egene testverdier 
 DB_USER= 
+
 DB_PASSWORD= 
+
 DB_DATABASE_NAME=employeeoverview
  
 
