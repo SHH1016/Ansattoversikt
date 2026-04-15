@@ -23,7 +23,10 @@ import  './cronjobs/deactivateEmployeesCron.js';
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:5173',  // juster om frontend kjører annet sted
+    origin: [
+        'http://localhost:5173',
+        'https://employeeoverview.netlify.app'
+    ],
     credentials: true
 }));
 
