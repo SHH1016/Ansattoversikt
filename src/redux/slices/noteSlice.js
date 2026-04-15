@@ -10,7 +10,7 @@ export const fetchNotesForEmployee = createAsyncThunk(
   "note/fetchNotesForEmployee",
   async (employeeId) => {
     //henter ruteren vår fra backend localhost:3000
-    const res = await api.get(`http://localhost:3000/api/note/${employeeId}`);
+    const res = await api.get(`/note/${employeeId}`);
     console.log("Notater fra backend:", res.data);
     return res.data;
   }

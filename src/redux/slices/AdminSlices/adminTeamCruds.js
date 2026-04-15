@@ -15,7 +15,7 @@ import { fetchMetaData } from '../metaDataCrudsSlice.js';
 export const createTeam = createAsyncThunk(
     'team/createTeam', async (newTeam, {dispatch, rejectWithValue}) =>{
         try{
-            await api.post('http://localhost:3000/api/team', newTeam);
+            await api.post('/team', newTeam);
             //oppdatere teams
             dispatch(fetchMetaData());
         }catch (err){

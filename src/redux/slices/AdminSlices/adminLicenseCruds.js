@@ -10,7 +10,7 @@ export const createLicense = createAsyncThunk(
   async (newLicense, { dispatch, rejectWithValue }) => {
     try {
       const response = await api.post(
-        "http://localhost:3000/api/license",
+        "/license",
         newLicense
       );
       dispatch(fetchMetaData());
